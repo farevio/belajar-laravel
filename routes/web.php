@@ -27,6 +27,15 @@ Route::get('/products/{Id}', \App\Http\Livewire\ProductDetail::class)->name('pro
 Route::get('/keranjang', \App\Http\Livewire\Keranjang::class)->middleware('auth')->name('keranjang');
 Route::get('/checkout', \App\Http\Livewire\Checkout::class)->middleware('auth')->name('checkout');
 Route::get('/history', \App\Http\Livewire\History::class)->middleware('auth')->name('history');
+Route::get('/superusr', \App\Http\Livewire\SuperUsr::class)->name('superusr');
+Route::get('/superusr/product-add', \App\Http\Livewire\ProductAdd::class)->name('product-add');
+Route::get('/superusr/all-product', \App\Http\Livewire\ProductAll::class)->name('all-products');
+Route::get('/superusr/products-log', \App\Http\Livewire\ProductLog::class)->name('products-log');
+Route::get('/superusr/store-stat', \App\Http\Livewire\StatStore::class)->name('store-stat');
+Route::get('/superusr/buyer-stat', \App\Http\Livewire\StatBuyer::class)->name('buyer-stat');
+Route::get('/superusr/complaint', \App\Http\Livewire\StoreComplaint::class)->name('complaint');
+Route::get('/superusr/products-review', \App\Http\Livewire\StoreReview::class)->name('products-review');
+Route::get('/superusr/admin', \App\Http\Livewire\StoreAdmin::class)->name('admin');
 
 
    Route::get('/adm',[DashboardController::class, 'dashboard'])->name('dashboard');
