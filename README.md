@@ -8,7 +8,7 @@ Run on any terminal-related apps:
 2. ```composer update```
 3. ```npm install```
 4. ```php artisan key:generate```
-Done.
+<br>Done.
 
 # Happy Laravel^^
 
