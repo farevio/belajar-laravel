@@ -1,7 +1,7 @@
 ## How To Run This Project
 
 ```create new database``` on your favorite mysql gui(xammp's phpMyAdmin for example) name it to ```tes_ecommerce_mangrupa``` and then ```import``` ```tes_ecommerce_mangrupa.sql``` from ```root``` directory(in case that file is missing there is available backup the ```.zip``` one)
-Still in ```root``` directory, Make new .env file, copy all from ```.env.example``` file, rename to DB_DATABASE=tes_ecommerce_mangrupa from it's default 'laravel'
+Still in ```root``` directory, Make new .env file, copy all from ```.env.example``` file, rename to ```DB_DATABASE=tes_ecommerce_mangrupa``` from it's default.
 
 Run on any terminal-related apps:
 1. ```composer install```
