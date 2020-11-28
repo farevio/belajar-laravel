@@ -1,3 +1,17 @@
+## How To Run This Project
+
+```create new database``` on your favorite mysql gui(xammp's phpMyAdmin for example) name it to ```tes_ecommerce_mangrupa``` and then ```import``` ```tes_ecommerce_mangrupa.sql``` from ```root``` directory(in case that file is missing there is available backup the ```.zip``` one)
+Still in ```root``` directory, Make new .env file, copy all from ```.env.example``` file, rename to DB_DATABASE=tes_ecommerce_mangrupa from it's default 'laravel'
+
+Run on any terminal-related apps:
+1. ```composer install```
+2. ```composer update```
+3. ```npm install```
+4. ```php artisan key:generate```
+Done.
+
+# Happy Laravel^^
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
